@@ -1,5 +1,6 @@
 To run the simulator, you can simply run **run.sh** and it will build and run the simulator
-for you. By default, it is set to use **test.hex** as the input. Once your simulator has
+for you. By default, it is set to use **test.hex** as the input. Note that **test.hex** 
+contains the machine code in hex that was converted from assembly code. Once your simulator has
 already been compiled, the core binary file that’s built can also be used to run the
 simulator. It takes in the machine code dump as the only argument.
 When running the program, you’ll be faced with a prompt that says Request:. Here
